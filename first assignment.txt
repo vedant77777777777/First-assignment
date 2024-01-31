@@ -1,0 +1,190 @@
+1.class studentdemo{
+        public static void main(String[] args){
+                byte studclass = 11;
+                char div1 ='A';
+                char div2 = 'B';
+                char div3 = 'C';
+                char div4 = 'D';
+                char div5 = 'E';
+                char div6 = 'F';
+                char div7 = 'G';
+                char div8 = 'H';
+                char div9 = 'I';
+                char div10 = 'J';
+                char div11 = 'K';
+                char div12 = 'L';
+             System.out.println(studclass);
+                        System.out.println(div1);
+                        System.out.println(div2);
+                        System.out.println(div3);
+                        System.out.println(div4);
+                        System.out.println(div5);
+                        System.out.println(div6);
+                        System.out.println(div7);
+                        System.out.println(div8);
+                        System.out.println(div9);
+                        System.out.println(div10);
+                        System.out.println(div11);
+                        System.out.println(div12);
+        }
+
+}
+----------------------
+2.class BankDemo {
+    public static void main(String[] args) {
+        float Balance = 5000f;
+        String BankName = "kotak";
+        String BankAddress = "IIT Narhe";
+        System.out.println("Bank balance :"+ Balance);
+        System.out.println("Bank Name : " + BankName);
+        System.out.println("Bank address: " + BankAddress);
+    }
+}
+-------------------------
+3. class piDemo {
+    public static void main(String[] args) {
+        double pi = 3.14159;
+        int circleangle = 360;
+        System.out.println("Value of pi: " + pi);
+        System.out.println("Highest degree of an angle in a circle: " + circleangle);
+    }
+}
+---------------------------------
+4.class employeecount{
+        public static void main(String[] args){
+                int employee = 37000;
+                float travelcost =10000.97f;
+                System.out.println("Employe cost is :" + employee);
+
+
+                System.out.println("Travel cost is :" + travelcost);
+        }
+}
+____________________________
+
+5.class keyboardbutton{
+        public static void main(String[] args){
+        byte countofbutton = 104;
+       System.out.println("The count of button on keyboard is :"+ countofbutton);
+}
+}
+--------------------------------
+6.class date{
+        public static void main(String[] args){
+                byte date = 26;
+                byte month = 1;
+                short year = 2024;
+                System.out.print(date+"/");
+                System.out.print(month+"/");
+                System.out.print(year+"/");
+        }
+}
+_------------------------------
+
+7.class population{
+ public static void main(String[] args){
+        long worldpopulation = 78888888888L;
+        int indiapopulation =1400000000;
+
+
+                 System.out.println("World's population is :"+worldpopulation);
+
+                System.out.println("Indian population is :"+indiapopulation);
+
+
+ }}
+__________________________________________________________
+8.class percentage{
+        public static void main (String [] args){
+                double percentage = 56.89;
+                char grade ='C';
+                System.out.println("My percentage is :"+percentage+"%");
+                System.out.println("My grades is :"+grade);
+                                }
+                                }
+_______________________________________
+9.class temp{
+        public static void main(String[] args){
+                double airconditionertemp = 22.5;
+                double roomtemp =22.0;
+                System.out.println("My Air conditioner is at Temperature :"+airconditionertemp);
+                System.out.println("My room temperature is :"+roomtemp);
+        }
+}
+-------------------------------
+10.class boxoffice{
+        public static void main(String[] args){
+                long boxoffice = 2550000000L;
+                double imdb = 7.9;
+                System.out.println( "Box office of Fighter is:"+boxoffice );
+                System.out.println("The IMDB rating of Fighter is :"+imdb);
+        }
+}
+----------------------------------
+11.class gravity{
+
+        public static void main(String[] args){
+                double gvalue = 9.81;
+                System.out.println("The value of gravity is :"+gvalue);
+                System.out.println("Acceleration due to gravity is :g");
+
+}
+}
+--------------------------------------
+12.class grams{
+        public static void main(String[] args){
+                double grams = 2.5;
+                short weightgrams =1500;
+
+                System.out.println( "Quantity in liters :" +grams);
+                        System .out.println("Weight in grams :"+weightgrams+"grams");
+}
+}
+__________________________________-------
+13.class current{
+         public static void main(String[] args){
+                 double current =5.0;
+                 double volt =12.0;
+                 System .out.println("Current is:"+current+"ampears");
+                 System .out.println("Volt is:"+volt+"volts");
+         }
+}
+---------------------------------------
+14.class ASCII
+public static void main(String[] args){
+char ch1 = 67;
+char ch2 = 79;
+char ch3 = 82;
+char ch4 = 69;
+char ch5 = 50;
+char ch6 = 87;
+char ch7 = 69;
+char ch8 = 66;
+
+                 System.out.println(ch1);
+                 System.out.println(ch2);
+                 System.out.println(ch3);
+                 System.out.println(ch4);
+                 System.out.println(ch5);
+                 System.out.println(ch6);
+                 System.out.println(ch7);
+                 System.out.println(ch8);
+
+        }
+
+        }
+----------------------------------------------
+15.class myself{
+        public static void main(String[] args){
+                byte myage = 21;
+                char mydiv = 'B';
+                int mobilenumber =1234567891;
+                double mycgpa =9.9;
+                long mysalary =5000000000L;
+                 System.out.println("My age is :"+myage);
+                 System.out.println("My div is :"+mydiv);
+                 System.out.println("My mobile numaber is:"+mobilenumber );
+                 System.out.println("My cgpa is :"+mycgpa);
+                System.out.println("My salary is :"+mysalary);
+        }
+}
